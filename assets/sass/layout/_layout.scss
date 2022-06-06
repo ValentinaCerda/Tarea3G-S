@@ -1,0 +1,93 @@
+#logo{
+ width: 150px;
+ height: 50px;
+}
+
+ .opacity{
+ opacity: 0.9;
+} 
+
+.nav__retro-prim {
+ display: grid;
+ grid-template-columns: 1fr;
+ background-color: #197abe !important;
+ justify-content: flex-end;
+ &--brand {
+  margin-left: 20px;
+  &--icon {
+   font-size: 45px;
+   margin-left: 30px;
+  }
+  &--h1 {
+   font-family: 'Roboto Flex', sans-serif;
+   font-size: 15px;
+   color: #fff;
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   margin-top: 10px;
+  }
+  &--size {
+   font-size: 28px;
+   letter-spacing: 6px;
+   margin-left: -1px;
+  }
+ }
+}
+.nav__retro-link {
+ font-family: 'Roboto Flex', sans-serif;
+ margin-right: 20px;
+ display: grid;
+ grid-template-columns: 1fr;
+ &--item {
+  margin-right: 10px;
+ }
+}
+
+.carousel__prim {
+ justify-content: center;
+ align-items: center;
+ &-img{
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  &--h5 {
+   font-family: 'Roboto Flex', sans-serif;
+   font-size: 50px;
+  }
+  &--p{
+   margin-bottom: 18rem;
+  }
+ }
+}
+.carousel-style {
+ font-family: 'Poppins', sans-serif;
+}
+
+.title__welcome {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Poppins', sans-serif;
+}
+
+.footer__prim {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ align-items: center;
+ text-align: center;
+ background-color: #042444;
+ margin: 0px !important;
+ padding: 0px !important;
+ &-div {
+  font-family: 'Poppins', sans-serif;
+ }
+ &-test {
+  padding: 0;
+  &--body {
+   font-family: 'Roboto Flex', sans-serif;
+  }
+  &--text {
+   font-size: 13px;
+  }
+ }
+}
